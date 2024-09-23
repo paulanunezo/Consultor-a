@@ -3,7 +3,7 @@ library(FrF2)
 
 #Generar el diseño factorial fraccionado 2^(5-1) con dos réplicas
 Experimento <- FrF2(nruns = 16, nfactors = 5, replications = 2, 
-               factor.names = c("Corriente", "Electrolitos", "Tiempo", "pH", "Antibiotico"))
+               factor.names = c("Corriente", "Electrolitos", "Electrodos", "pH", "Antibiotico"))
 
 
 ### CAMBIAR CUANDO SE TENGA VECTOR DE DATOS ###
